@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Googel Suite">
+
+<listeners>
+    <listener class-name="com.googleUK.listener.TestsListenerAdapter" />
+</listeners>
+
+<test name="Message test">
+    <classes>
+        <class name="com.googleUK.testcases.CreateAccountTest" ></class>  
+    </classes>
+</test>
+
+
+</suite>

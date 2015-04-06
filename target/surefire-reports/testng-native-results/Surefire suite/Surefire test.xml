@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="shithole" name="com.googleUK.testcases.CreateAccountTest" tests="1" failures="0" timestamp="6 Apr 2015 16:28:36 GMT" time="17.558" errors="0">
+  <testcase name="validateMesage" time="13.001" classname="com.googleUK.testcases.CreateAccountTest"/>
+</testsuite>
