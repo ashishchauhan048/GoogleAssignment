@@ -37,10 +37,6 @@ public class GoogleUK_CreateAccount_Page {
 	@FindBy(xpath = constants.monthBox_xpath)
 	public WebElement monthBox;
 	 
-	
-	@FindBy(xpath = constants.month_xpath)
-	public WebElement month;
-	
 	@FindBy(xpath = constants.days_xpath)
 	public WebElement days;
 	
@@ -81,9 +77,8 @@ public class GoogleUK_CreateAccount_Page {
 		lastName.sendKeys("Sahu");
 		passwd.sendKeys("neunzehn@1234");
 		passwdAgain.sendKeys("neunzehn@1234");
-		monthBox.click();
-		month.click();
-		days.sendKeys("18");
+		monthBox..sendKeys("February");
+                                    days.sendKeys("18");
 		year.sendKeys("1990");
 		genderBox.click();
 		gender.click();

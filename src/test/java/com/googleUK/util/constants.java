@@ -8,7 +8,7 @@ public class constants {
 	
 	//xpaths for the Landing page
 
-	public static final String createAccountButton = "//a[@id='link-signup']";
+	public static final String createAccountButton = "//*[@id='gmail-create-account']";
 	
 	//xpath for the createAccountPage
 	
@@ -21,8 +21,6 @@ public class constants {
 	public static final String passwdAgain_xpath = "//*[@id='PasswdAgain']";
 	
 	public static final String monthBox_xpath = "//*[@id='BirthMonth']/div";
-	
-	public static final String  month_xpath = "//*[@id=':5']/div";
 	
 	public static final String days_xpath  = "//*[@id='BirthDay']";
 	
